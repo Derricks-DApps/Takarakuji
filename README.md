@@ -1,8 +1,11 @@
 # Takarakuji
 
-Japanese Lottery Scratch off games
+Japanese Scratch off ticket
 
 ## Architecture:
 
-L1 and L2 testnets with ZK proofs
+TBD
+
+
+
 
