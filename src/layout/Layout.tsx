@@ -49,7 +49,7 @@ const Layout = (properties: any) => {
   const walletBalance = 5.3433;
   return (
     <>
-      <AppBar position="static" style={{ backgroundColor: "red" }}>
+      {/* <AppBar position="static" style={{ backgroundColor: "red" }}>
         <Container maxWidth={false}>
           <Toolbar disableGutters>
             <img src="https://cdn-icons-png.flaticon.com/512/4652/4652635.png" height="50" width="50" alt="" />
@@ -191,7 +191,7 @@ const Layout = (properties: any) => {
             }
           </Toolbar>
         </Container>
-      </AppBar>
+      </AppBar> */}
       {children}
     </>
   );
