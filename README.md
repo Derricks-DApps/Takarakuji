@@ -7,7 +7,7 @@ Japanese Scratch off ticket
   - 1inch
     
 ## Architecture:
-
+```mermaid
 graph TD
   subgraph Client
     U[User Browser]
@@ -60,6 +60,7 @@ graph TD
   GO_DL --> LAMBDA
 
   AMP --> ETHGLOBAL
+```
 
 
 
