@@ -1,9 +1,11 @@
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import "../styles/takarakuji-landing.css"
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import GraphicBackground from "../components/GraphicBackground";
 import { useAccount, useConnect, useEnsName } from 'wagmi'
 import { InjectedConnector } from 'wagmi/connectors/injected'
+import TakarakujiLanding from "./TakarakujiLanding";
 // const provider = new ethers.JsonRpcProvider('https://8545-derricksope-scaffoldeth-yyiqw900tvt.ws-us92.gitpod.io');
 const wallet = false; // TODO: remove this is just for testing
 const Index = () => {
@@ -17,8 +19,8 @@ const Index = () => {
 
   return (
     <>
-      <br />
-      <div style={{
+      {/* <br /> */}
+      {/* <div style={{
         position: "absolute",
         top: "50%",
         margin: "auto",
@@ -57,8 +59,9 @@ const Index = () => {
           </>
         }
 
-      </div>
-      
+      </div> */}
+          
+      <TakarakujiLanding/>
     </>
 
   );
